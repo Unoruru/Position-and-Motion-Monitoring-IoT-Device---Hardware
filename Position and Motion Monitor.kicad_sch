@@ -1,0 +1,760 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "c3097aea-784a-464f-8e6d-2c357f7de5a4")
+	(paper "A4")
+	(lib_symbols)
+	(text "[1] USB, Power"
+		(exclude_from_sim no)
+		(at 58.166 31.242 0)
+		(effects
+			(font
+				(size 4 4)
+				(thickness 0.8)
+				(bold yes)
+			)
+		)
+		(uuid "18c45cfc-5af3-42ce-b6c6-56808c82bfd3")
+	)
+	(text "UART"
+		(exclude_from_sim no)
+		(at 125.476 160.528 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.25)
+				(italic yes)
+			)
+		)
+		(uuid "197dd4d2-ad3d-4156-af34-20883928629b")
+	)
+	(text "[5] WiFi Wireless"
+		(exclude_from_sim no)
+		(at 226.822 113.284 0)
+		(effects
+			(font
+				(size 4 4)
+				(thickness 0.8)
+				(bold yes)
+			)
+		)
+		(uuid "2556c841-1ccc-431c-9c9d-3b2e74abf189")
+	)
+	(text "UART"
+		(exclude_from_sim no)
+		(at 189.992 114.554 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.25)
+				(italic yes)
+			)
+		)
+		(uuid "4075cc23-f934-41e4-8ee7-3b59d93227a5")
+	)
+	(text "USB"
+		(exclude_from_sim no)
+		(at 108.712 43.942 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.25)
+				(italic yes)
+			)
+		)
+		(uuid "42794528-6799-409e-9933-abd79e3ca985")
+	)
+	(text "[3] Sensor(IMU)"
+		(exclude_from_sim no)
+		(at 49.022 92.202 0)
+		(effects
+			(font
+				(size 4 4)
+				(thickness 0.8)
+				(bold yes)
+			)
+		)
+		(uuid "5a22212a-ba8e-423d-8a91-63da30812714")
+	)
+	(text "GPIO"
+		(exclude_from_sim no)
+		(at 191.77 73.152 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.25)
+				(italic yes)
+			)
+		)
+		(uuid "9581045e-e0b7-4f4d-8fd6-1535297465e7")
+	)
+	(text "[4] LEDs"
+		(exclude_from_sim no)
+		(at 230.378 45.72 0)
+		(effects
+			(font
+				(size 4 4)
+				(thickness 0.8)
+				(bold yes)
+			)
+		)
+		(uuid "bdb791a9-212e-47d0-ae0c-6a377e848561")
+	)
+	(text "[6] UART Debug"
+		(exclude_from_sim no)
+		(at 68.834 156.464 0)
+		(effects
+			(font
+				(size 4 4)
+				(thickness 0.8)
+				(bold yes)
+			)
+		)
+		(uuid "ce5ff2da-c6de-4e26-b054-086793fccb7a")
+	)
+	(text "[2] MCU Core"
+		(exclude_from_sim no)
+		(at 129.286 72.898 0)
+		(effects
+			(font
+				(size 4 4)
+				(thickness 0.8)
+				(bold yes)
+			)
+		)
+		(uuid "ddc1e616-12ab-4869-ad52-bcb76fa9ade6")
+	)
+	(text "I²C"
+		(exclude_from_sim no)
+		(at 92.964 100.838 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.25)
+				(italic yes)
+			)
+		)
+		(uuid "e60da399-7915-4af3-ac7c-bdfb28e2bc8b")
+	)
+	(text_box "STEM32\n"
+		(exclude_from_sim no)
+		(at 107.95 81.28 0)
+		(size 19.05 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 255 233 136 1)
+		)
+		(effects
+			(font
+				(size 3 3)
+			)
+			(justify left top)
+		)
+		(uuid "0f5c503c-6a88-4464-96b2-376624ec7b80")
+	)
+	(text_box "LDO"
+		(exclude_from_sim no)
+		(at 67.31 54.61 0)
+		(size 10.16 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 255 233 136 1)
+		)
+		(effects
+			(font
+				(size 3 3)
+			)
+			(justify left top)
+		)
+		(uuid "167bfcec-1045-442f-9080-9983adedca46")
+	)
+	(text_box "Power Source"
+		(exclude_from_sim no)
+		(at 39.37 38.1 0)
+		(size 34.29 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 255 233 136 1)
+		)
+		(effects
+			(font
+				(size 3 3)
+			)
+			(justify left top)
+		)
+		(uuid "3753fb1c-c56d-4091-8be1-189b74dd8957")
+	)
+	(text_box "USB-C"
+		(exclude_from_sim no)
+		(at 48.26 46.99 0)
+		(size 17.78 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 255 233 136 1)
+		)
+		(effects
+			(font
+				(size 3 3)
+			)
+			(justify left top)
+		)
+		(uuid "71d4be8e-7e33-4d72-8150-c51e7503ecbe")
+	)
+	(text_box "ESD\n"
+		(exclude_from_sim no)
+		(at 53.34 54.61 0)
+		(size 10.16 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 255 233 136 1)
+		)
+		(effects
+			(font
+				(size 3 3)
+			)
+			(justify left top)
+		)
+		(uuid "849e4b2a-b8e5-47d9-a034-46da6af8cf5f")
+	)
+	(text_box "ESP-3C-WROOM-02"
+		(exclude_from_sim no)
+		(at 205.74 124.46 0)
+		(size 52.07 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 255 233 136 1)
+		)
+		(effects
+			(font
+				(size 3 3)
+			)
+			(justify left top)
+		)
+		(uuid "84c85a66-3c78-4730-a30d-87ff75d9c517")
+	)
+	(text_box "Headers"
+		(exclude_from_sim no)
+		(at 50.8 162.56 0)
+		(size 21.59 6.35)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 255 233 136 1)
+		)
+		(effects
+			(font
+				(size 3 3)
+			)
+			(justify left top)
+		)
+		(uuid "8658e4b2-bc85-4e2a-b4bf-a53612bbedeb")
+	)
+	(text_box "BOOTO Switch"
+		(exclude_from_sim no)
+		(at 107.95 116.84 0)
+		(size 35.56 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 255 233 136 1)
+		)
+		(effects
+			(font
+				(size 3 3)
+			)
+			(justify left top)
+		)
+		(uuid "a3b60bf0-dde1-4eae-9a7a-cf24b9d1a252")
+	)
+	(text_box "RF Circuit"
+		(exclude_from_sim no)
+		(at 107.95 105.41 0)
+		(size 27.94 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 255 233 136 1)
+		)
+		(effects
+			(font
+				(size 3 3)
+			)
+			(justify left top)
+		)
+		(uuid "aa83ff6b-239c-45d7-97aa-cb8488f9c1b3")
+	)
+	(text_box "Programming Debug Interface"
+		(exclude_from_sim no)
+		(at 107.95 93.98 0)
+		(size 72.39 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 255 233 136 1)
+		)
+		(effects
+			(font
+				(size 3 3)
+			)
+			(justify left top)
+		)
+		(uuid "c849deac-cb04-4fd5-9808-22be3ff1d0cd")
+	)
+	(text_box "LEDs"
+		(exclude_from_sim no)
+		(at 224.79 50.8 0)
+		(size 12.7 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 255 233 136 1)
+		)
+		(effects
+			(font
+				(size 3 3)
+			)
+			(justify left top)
+		)
+		(uuid "e00ada8c-d6a1-40ed-bf33-d48ffbf79b22")
+	)
+	(text_box "Motion Sensing Unit"
+		(exclude_from_sim no)
+		(at 26.67 102.87 0)
+		(size 49.53 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 255 233 136 1)
+		)
+		(effects
+			(font
+				(size 3 3)
+			)
+			(justify left top)
+		)
+		(uuid "f4aa90c1-ef05-4264-9869-9b653f9c2af4")
+	)
+	(polyline
+		(pts
+			(xy 78.74 102.87) (xy 107.95 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "061881c2-1aac-450a-a1a6-6a9733443f6b")
+	)
+	(polyline
+		(pts
+			(xy 107.95 76.2) (xy 107.95 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ff185ed-c7e4-4f1b-8e00-ad2ba6bdd234")
+	)
+	(polyline
+		(pts
+			(xy 97.79 45.72) (xy 134.62 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2625b50c-9e99-4b8b-80a1-c002668b1a3f")
+	)
+	(polyline
+		(pts
+			(xy 134.62 45.72) (xy 134.62 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29987db8-07c9-4cda-a2d1-4b9a08cd62b6")
+	)
+	(polyline
+		(pts
+			(xy 83.82 45.72) (xy 97.79 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3dc257e5-e724-4ea9-a584-59b669702a29")
+	)
+	(polyline
+		(pts
+			(xy 217.17 49.53) (xy 204.47 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e9cbced-e36e-4106-b40d-ad3a3aa45653")
+	)
+	(polyline
+		(pts
+			(xy 133.35 127) (xy 133.35 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53eaa805-280d-4a97-98f7-42acce5bb0e8")
+	)
+	(polyline
+		(pts
+			(xy 180.34 116.84) (xy 200.66 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b119efd-42c1-4c37-a30e-dbb37292aa6a")
+	)
+	(polyline
+		(pts
+			(xy 180.34 76.2) (xy 204.47 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bc13819-6c68-48a2-bc3d-1dd1d7ce8a04")
+	)
+	(polyline
+		(pts
+			(xy 204.47 49.53) (xy 204.47 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a69bf60b-b272-4b2c-8c04-0b88b2d5740d")
+	)
+	(polyline
+		(pts
+			(xy 92.71 162.56) (xy 133.35 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1ed6fe5-099c-410b-94fb-8297961ca030")
+	)
+	(sheet
+		(at 200.66 109.22)
+		(size 62.23 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "41ea77ad-01ad-4b09-8c8a-e0e6020f3600")
+		(property "Sheetname" "Sub 5 - WiFi Wireless"
+			(at 200.66 108.5084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "BLE.kicad_sch"
+			(at 200.66 142.8246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Position and Motion Monitor"
+				(path "/c3097aea-784a-464f-8e6d-2c357f7de5a4"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 24.13 86.36)
+		(size 54.61 31.75)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "54e550e4-062a-40ad-8604-445329496563")
+		(property "Sheetname" "Sub 3 - Sensor(IMU)"
+			(at 24.13 85.6484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "IMU.kicad_sch"
+			(at 24.13 118.6946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Position and Motion Monitor"
+				(path "/c3097aea-784a-464f-8e6d-2c357f7de5a4"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 44.45 152.4)
+		(size 48.26 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "68177ff0-9df9-4532-a577-aa7f1054c538")
+		(property "Sheetname" "Sub 6 - UART Debug"
+			(at 44.45 151.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "UART.kicad_sch"
+			(at 44.45 170.7646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Position and Motion Monitor"
+				(path "/c3097aea-784a-464f-8e6d-2c357f7de5a4"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 34.29 26.67)
+		(size 49.53 39.37)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d35f6f96-0764-4584-ba46-732f14de9845")
+		(property "Sheetname" "Sub 1 - USB, Power"
+			(at 34.29 25.9584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USB.kicad_sch"
+			(at 34.29 66.6246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Position and Motion Monitor"
+				(path "/c3097aea-784a-464f-8e6d-2c357f7de5a4"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 107.95 68.58)
+		(size 72.39 58.42)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "de1877f0-6a8c-4509-975a-6206521e0f74")
+		(property "Sheetname" "Sub 2 - MCU Core"
+			(at 107.95 67.8684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU.kicad_sch"
+			(at 107.95 127.5846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Position and Motion Monitor"
+				(path "/c3097aea-784a-464f-8e6d-2c357f7de5a4"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 217.17 41.91)
+		(size 36.83 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "eed42be4-b0c6-4482-ba97-c7434df3a728")
+		(property "Sheetname" "Sub 4 - LEDs"
+			(at 217.17 41.1984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "LEDs.kicad_sch"
+			(at 217.17 57.7346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Position and Motion Monitor"
+				(path "/c3097aea-784a-464f-8e6d-2c357f7de5a4"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

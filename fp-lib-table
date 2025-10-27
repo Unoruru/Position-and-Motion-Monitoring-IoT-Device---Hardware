@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Position_and_Motion_Monitor")(type "KiCad")(uri "${KIPRJMOD}/Position_and_Motion_Monitor.pretty")(options "")(descr ""))
+)
